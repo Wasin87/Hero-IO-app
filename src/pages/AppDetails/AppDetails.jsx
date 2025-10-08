@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLoaderData, useParams, Link } from 'react-router-dom';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 import { toast, ToastContainer } from 'react-toastify';
@@ -15,18 +15,19 @@ const AppDetails = () => {
   const data = useLoaderData();
 
   const singleApp = data.find((app) => app.id === appId);
-
   const [installed, setInstalled] = useState(false);
 
-  // ✅ Error: App Not Found
+  // ✅ Check if this app is already installed
+  useEffect(() => {
+    const storedApps = JSON.parse(localStorage.getItem('installedApps')) || [];
+    const isInstalled = storedApps.some((app) => app.id === appId);
+    setInstalled(isInstalled);
+  }, [appId]);
+
   if (!singleApp) {
     return (
       <div className="max-w-5xl mx-auto text-center mt-10 mb-10">
-        <img
-          className="mx-auto w-[300px] md:w-[400px]"
-          src={appFound}
-          alt="App Not Found"
-        />
+        <img className="mx-auto w-[300px] md:w-[400px]" src={appFound} alt="App Not Found" />
         <h1 className="font-bold text-2xl mt-5">OOPS!! APP NOT FOUND</h1>
         <p className="text-gray-500 mt-2">
           The app you are requesting is not found on our system. Please try another app.
@@ -40,20 +41,28 @@ const AppDetails = () => {
     );
   }
 
-  const { image, title, downloads, ratingAvg, reviews, description, size, ratings,companyName } =
+  const { image, title, downloads, ratingAvg, reviews, description, size, ratings, companyName } =
     singleApp;
 
+  // ✅ Handle Install and Save to LocalStorage
   const handleInstall = () => {
-    setInstalled(true);
-    toast.success(`${title} installed successfully! 🚀`, {
-      position: "top-center",
-      autoClose: 3000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-    });
+    const storedApps = JSON.parse(localStorage.getItem('installedApps')) || [];
+    const isAlreadyInstalled = storedApps.some((app) => app.id === appId);
+
+    if (!isAlreadyInstalled) {
+      storedApps.push(singleApp);
+      localStorage.setItem('installedApps', JSON.stringify(storedApps));
+      setInstalled(true);
+      toast.success(`${title} installed successfully! 🚀`, {
+        position: 'top-right',
+        autoClose: 3000,
+      });
+    } else {
+      toast.info(`${title} is already installed!`, {
+        position: 'top-right',
+        autoClose: 2000,
+      });
+    }
   };
 
   return (
@@ -93,7 +102,7 @@ const AppDetails = () => {
 
           <button
             onClick={handleInstall}
-            disabled={installed}
+             
             className={`btn font-semibold mt-3 px-4 py-2 rounded-md bg-green-500 text-white ${
               installed ? 'cursor-not-allowed' : ''
             }`}
@@ -131,7 +140,6 @@ const AppDetails = () => {
         <p className="text-gray-500">{description}</p>
       </div>
 
-      {/* Toastify Container */}
       <ToastContainer />
     </div>
   );
