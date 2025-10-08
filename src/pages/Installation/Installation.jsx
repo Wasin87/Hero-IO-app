@@ -8,13 +8,12 @@ import 'react-toastify/dist/ReactToastify.css';
 const Installation = () => {
   const [installedApps, setInstalledApps] = useState([]);
 
-  // ✅ Load Installed Apps
+ 
   useEffect(() => {
     const storedApps = JSON.parse(localStorage.getItem('installedApps')) || [];
     setInstalledApps(storedApps);
   }, []);
-
-  // ✅ Uninstall App
+ 
   const handleUninstall = (appId, title) => {
     const updatedApps = installedApps.filter((app) => app.id !== appId);
     setInstalledApps(updatedApps);
