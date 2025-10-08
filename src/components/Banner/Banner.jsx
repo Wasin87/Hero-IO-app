@@ -17,8 +17,8 @@ const Banner = () => {
      </div>
 
         <div className='flex justify-center items-center gap-3 mt-5'>
-          <button className='btn'><span> <img className='w-[30px] h-[30px]' src= {play} alt="" /> </span>Google Play</button>
-          <button className='btn'><span> <img className='w-[30px] h-[30px]' src= {app} alt="" /> </span>App Store</button>
+          <a href='https://play.google.com/store/apps' className='btn'><span> <img className='w-[30px] h-[30px]' src= {play} alt="" /> </span>Google Play</a>
+          <a href='https://www.apple.com/app-store/' className='btn'><span> <img className='w-[30px] h-[30px]' src= {app} alt="" /> </span>App Store</a>
         </div>
 
         <div className='flex justify-center items-center mt-5'>

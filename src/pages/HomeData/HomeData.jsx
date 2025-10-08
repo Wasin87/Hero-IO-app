@@ -1,7 +1,7 @@
 import React from 'react';
 import download from '../../assets/icon-downloads.png'
 import rating from '../../assets/icon-ratings.png'
-import { useLoaderData } from 'react-router';
+import { Link, useLoaderData } from 'react-router';
 const HomeData = () => {
 
     const data = useLoaderData()
@@ -22,7 +22,7 @@ const HomeData = () => {
         {data.map(({ id, image, title, downloads, ratingAvg }) => (
           <div
             key={id}
-            className='border border-gray-200 rounded-md shadow-md p-4 w-[240px] h-[310px]'
+            className='border border-gray-200 rounded-md shadow-md p-4 w-[240px] h-[310px] transition-transform duration-300 hover:-translate-y-2'
           >
             <img
               className='w-[200px] h-[200px] flex justify-center items-center rounded-md'
@@ -53,6 +53,10 @@ const HomeData = () => {
           </div>
         ))}
       </div>
+      <div className='flex justify-center items-center'>
+         <Link to="/apps"><button className='btn mb-8 mt-4 px-15 bg-gradient-to-r from-purple-800 to-purple-500 text-white border-none '>Show All</button></Link>
+      </div>
+         
     </div>
     );
 };

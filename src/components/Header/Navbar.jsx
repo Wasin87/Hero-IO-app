@@ -26,7 +26,7 @@ const Navbar = () => {
 
     const gitLink = (
       <>
-         <Link to="/"><p className="btn btn-ghost text-xl border-transparent text-purple-700 hover:border-purple-400 ">BHERO.IO</p></Link>
+         <Link to="/"><p className="btn text-xl border-transparent text-purple-700 hover:border-purple-400 ">BHERO.IO</p></Link>
       
       </>
 
@@ -61,7 +61,7 @@ const Navbar = () => {
       </div>
        
        <div className='ml-30'>
-             <a href='https://github.com/Wasin87' className="btn bg-gradient-to-r from-purple-800 to-purple-500 text-white border-none">
+             <a href='https://github.com/Wasin87' className="btn transition-transform duration-300 hover:-translate-y-1 bg-gradient-to-r from-purple-800 to-purple-500 text-white border-none">
             <img className='w-[30px] h-[30px]' src={github} alt="" /> 
                Contribute
               </a>

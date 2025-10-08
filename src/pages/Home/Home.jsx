@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import Banner from '../../components/Banner/Banner';
  
 import { useLoaderData } from 'react-router-dom';
@@ -11,7 +11,9 @@ const Home = () => {
         <div>
              <Banner></Banner>
              <div className='max-w-5xl mx-auto'>
-                <HomeData></HomeData>
+                <Suspense fallback={"Loading...."}>
+                    <HomeData></HomeData>
+                </Suspense>
              </div>
               
         </div>

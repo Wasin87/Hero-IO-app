@@ -1,8 +1,17 @@
 import React from 'react';
-
+import logoImg from '../../assets/logo.png'
 const Footer = () => {
   return (
-    <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
+
+      <div>
+        <div className='flex gap-2 bg-black text-white hover:text-purple-600 px-9 py-5'>
+        
+        <img className='w-[30px] h-[30px]' src={logoImg} alt="" />
+        <p className="font-bold text-xl">BHERO.IO</p>
+        </div>
+      
+    <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10 -mt-8">
+
       <nav>
         <h6 className="footer-title">Services</h6>
         <a className="link link-hover">Branding</a>
@@ -24,6 +33,11 @@ const Footer = () => {
         <a className="link link-hover">Cookie policy</a>
       </nav>
     </footer>
+        <div className='flex gap-2 bg-black text-gray-300 justify-center items-center py-5'>
+         
+            <p>Copyright © 2025 - All right reserved</p>
+        </div>
+        </div>
   );
 };
 
