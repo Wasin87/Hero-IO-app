@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
+import { useLoaderData, useParams, Link } from 'react-router-dom';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import download from '../../assets/icon-downloads.png';
 import rating from '../../assets/icon-ratings.png';
 import review from '../../assets/icon-review.png';
-import { useLoaderData, useParams } from 'react-router';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import appFound from '../../assets/App-Error.png';
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -14,16 +18,43 @@ const AppDetails = () => {
 
   const [installed, setInstalled] = useState(false);
 
+  // ✅ Error: App Not Found
   if (!singleApp) {
     return (
-      <div className="text-center mt-10 text-xl text-gray-500">
-        App not found
+      <div className="max-w-5xl mx-auto text-center mt-10 mb-10">
+        <img
+          className="mx-auto w-[300px] md:w-[400px]"
+          src={appFound}
+          alt="App Not Found"
+        />
+        <h1 className="font-bold text-2xl mt-5">OOPS!! APP NOT FOUND</h1>
+        <p className="text-gray-500 mt-2">
+          The app you are requesting is not found on our system. Please try another app.
+        </p>
+        <Link to="/">
+          <button className="btn mb-8 mt-5 px-10 bg-gradient-to-r from-purple-800 to-purple-500 text-white border-none rounded-md">
+            Go Back!
+          </button>
+        </Link>
       </div>
     );
   }
 
-  const { image, title, downloads, ratingAvg, reviews, description, size, ratings } =
+  const { image, title, downloads, ratingAvg, reviews, description, size, ratings,companyName } =
     singleApp;
+
+  const handleInstall = () => {
+    setInstalled(true);
+    toast.success(`${title} installed successfully! 🚀`, {
+      position: "top-center",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    });
+  };
 
   return (
     <div className="max-w-5xl mx-auto mt-8 mb-8">
@@ -36,7 +67,7 @@ const AppDetails = () => {
           <div className="mb-4">
             <h1 className="font-bold text-xl">{title}</h1>
             <span className="text-gray-500">Developed by </span>
-            <span className="text-purple-500 font-bold">productive.io</span>
+            <span className="text-purple-500 font-bold">{companyName}</span>
           </div>
 
           <hr />
@@ -61,7 +92,7 @@ const AppDetails = () => {
           </div>
 
           <button
-            onClick={() => setInstalled(true)}
+            onClick={handleInstall}
             disabled={installed}
             className={`btn font-semibold mt-3 px-4 py-2 rounded-md bg-green-500 text-white ${
               installed ? 'cursor-not-allowed' : ''
@@ -80,8 +111,8 @@ const AppDetails = () => {
         <BarChart
           width={600}
           height={300}
-          data={ratings}  // single app rating data
-          layout="vertical" // optional: use vertical if you want horizontal bars
+          data={ratings}
+          layout="vertical"
           margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
         >
           <CartesianGrid strokeDasharray="3 3" />
@@ -99,6 +130,9 @@ const AppDetails = () => {
         <h1 className="font-bold text-lg mt-4 mb-3">Description</h1>
         <p className="text-gray-500">{description}</p>
       </div>
+
+      {/* Toastify Container */}
+      <ToastContainer />
     </div>
   );
 };

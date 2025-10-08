@@ -27,7 +27,7 @@ const Apps = () => {
       <div className="max-w-5xl mx-auto flex justify-between mt-8">
         <p className="font-bold">({filteredData.length}) Apps Found</p>
 
-        <label className="input border-2 border-gray-500 hover:border-purple-600 w-[200px] flex items-center gap-2 px-2 rounded-md">
+        <label className="input border-2  hover:border-purple-600 w-[200px] flex items-center gap-2 px-2 rounded-md">
           <svg
             className="h-[1em] opacity-50"
             xmlns="http://www.w3.org/2000/svg"
