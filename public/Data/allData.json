@@ -1,0 +1,384 @@
+[
+  {
+    "image": "https://i.ibb.co.com/CpJBJLH7/photomaster.png",
+    "title": "PhotoMaster Pro",
+    "companyName": "PixelCraft Ltd",
+    "id": 1,
+    "description": "PhotoMaster Pro is your AI-powered editing companion. It enhances colors, removes blemishes, and adds cinematic effects. The interface is sleek and beginner-friendly. Turn ordinary photos into professional art in seconds.",
+    "size": 95,
+    "reviews": 2430,
+    "ratingAvg": 4.6,
+    "downloads": "1.2M",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 340 },
+      { "name": "4 star", "count": 860 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/DDhbrSLg/Task-Flow-Manager.png",
+    "title": "TaskFlow Manager",
+    "companyName": "NextGen Apps",
+    "id": 2,
+    "description": "TaskFlow Manager simplifies your daily planning. Create, track, and complete tasks with smart reminders. Visualize productivity trends using charts. Stay organized and stress-free every single day.",
+    "size": 60,
+    "reviews": 980,
+    "ratingAvg": 4.2,
+    "downloads": "540K",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/bMcS6PWD/Galaxy-Defender.webp",
+    "title": "Galaxy Defender",
+    "companyName": "Nova Games Studio",
+    "id": 3,
+    "description": "Defend the galaxy from alien invasions in this thrilling action game. Fly across stars, upgrade your ships, and battle epic bosses. Stunning graphics make every level exciting. Challenge your reflexes and conquer the cosmos.",
+    "size": 210,
+    "reviews": 5120,
+    "ratingAvg": 4.8,
+    "downloads": "2.3M",
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 330 },
+      { "name": "4 star", "count": 860 },
+      { "name": "5 star", "count": 3690 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/cXNBfRyK/Fit-Zone-Tracke.webp",
+    "title": "FitZone Tracker",
+    "companyName": "HealthSync Co.",
+    "id": 4,
+    "description": "Stay fit with real-time workout tracking and health tips. Monitor calories, steps, and heart rate easily. Personalized goals help you stay consistent. FitZone motivates you to build a healthier lifestyle.",
+    "size": 80,
+    "reviews": 1800,
+    "ratingAvg": 4.3,
+    "downloads": "870K",
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 310 },
+      { "name": "4 star", "count": 580 },
+      { "name": "5 star", "count": 670 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/b5kzVSzB/Mind-Ease-Meditation.webp",
+    "title": "MindEase Meditation",
+    "companyName": "CalmSpace Studios",
+    "id": 5,
+    "description": "MindEase helps you relax through guided meditation. Reduce stress and improve focus with daily sessions. Enjoy soothing soundscapes and mindfulness stories. Perfect for sleep, peace, and inner balance.",
+    "size": 45,
+    "reviews": 3200,
+    "ratingAvg": 4.7,
+    "downloads": "1.4M",
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 690 },
+      { "name": "5 star", "count": 1970 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/dwwqJK5D/Langify-Learn.webp",
+    "title": "Langify Learn",
+    "companyName": "EduVerse Labs",
+    "id": 6,
+    "description": "Master new languages faster with AI tutoring. Learn through interactive exercises and real dialogues. Track progress with detailed analytics. Langify makes learning fun and effective for everyone.",
+    "size": 110,
+    "reviews": 2750,
+    "ratingAvg": 4.5,
+    "downloads": "950K",
+    "ratings": [
+      { "name": "1 star", "count": 160 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1380 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qFj1tsLf/Budget-Buddy.webp",
+    "title": "BudgetBuddy",
+    "companyName": "FinWise Technologies",
+    "id": 7,
+    "description": "BudgetBuddy tracks your expenses and income with ease. Set monthly limits and get insights instantly. Visual charts show where your money goes. Save more and manage your finances smartly.",
+    "size": 55,
+    "reviews": 1450,
+    "ratingAvg": 4.1,
+    "downloads": "670K",
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 360 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 320 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5W160bW4/NoteNest.png",
+    "title": "NoteNest",
+    "companyName": "BrightApps Studio",
+    "id": 8,
+    "description": "NoteNest keeps your thoughts organized and synced. Capture notes, tasks, and reminders effortlessly. Use voice input or quick templates anytime. A simple, fast, and reliable note-taking app.",
+    "size": 38,
+    "reviews": 860,
+    "ratingAvg": 4.4,
+    "downloads": "410K",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 290 },
+      { "name": "5 star", "count": 280 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Kpvc7sDx/Music-Waves.jpg",
+    "title": "MusicWaves",
+    "companyName": "RhythmBase Inc.",
+    "id": 9,
+    "description": "Stream unlimited songs with crystal-clear quality. Discover playlists curated for every mood. Download tracks to listen offline anytime. MusicWaves redefines your musical experience beautifully.",
+    "size": 120,
+    "reviews": 5600,
+    "ratingAvg": 4.6,
+    "downloads": "3.2M",
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 580 },
+      { "name": "4 star", "count": 1020 },
+      { "name": "5 star", "count": 3540 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/BW4Nntn/Travel-Mate.png",
+    "title": "TravelMate",
+    "companyName": "GoGlobe Pvt Ltd",
+    "id": 10,
+    "description": "Plan and explore destinations with TravelMate. Find top attractions, hotels, and local cuisines. Get weather updates and travel guides easily. Your perfect travel companion anywhere you go.",
+    "size": 90,
+    "reviews": 2100,
+    "ratingAvg": 4.5,
+    "downloads": "780K",
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 640 },
+      { "name": "5 star", "count": 980 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/s9KHBLG4/Quick-Scan-PDF.png",
+    "title": "QuickScan PDF",
+    "companyName": "DocuTech Corp",
+    "id": 11,
+    "description": "Scan documents instantly using your camera. Convert images into PDFs with clean formatting. Share, store, or edit documents effortlessly. QuickScan makes paperless work fast and reliable.",
+    "size": 70,
+    "reviews": 1860,
+    "ratingAvg": 4.3,
+    "downloads": "640K",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 270 },
+      { "name": "4 star", "count": 560 },
+      { "name": "5 star", "count": 830 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qF0kT8GL/Cookify.webp",
+    "title": "Cookify",
+    "companyName": "TasteTech Studio",
+    "id": 12,
+    "description": "Discover thousands of recipes from around the world. Filter by ingredients, diet, or cuisine easily. Step-by-step guidance makes cooking fun. Cookify turns every meal into a masterpiece.",
+    "size": 85,
+    "reviews": 2450,
+    "ratingAvg": 4.7,
+    "downloads": "1.1M",
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 620 },
+      { "name": "5 star", "count": 1410 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nsG8rLX9/Study-Sync.png",
+    "title": "StudySync",
+    "companyName": "BrainWave Education",
+    "id": 13,
+    "description": "Study smarter with AI flashcards and notes. Sync across devices and collaborate with peers. Practice quizzes enhance long-term memory. StudySync brings learning to your fingertips.",
+    "size": 100,
+    "reviews": 3120,
+    "ratingAvg": 4.6,
+    "downloads": "890K",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 780 },
+      { "name": "5 star", "count": 1760 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/mF2SYcZc/Weather-Wise.jpg",
+    "title": "WeatherWise",
+    "companyName": "SkyNet Labs",
+    "id": 14,
+    "description": "Get precise weather forecasts in real time. Track temperature, air quality, and rainfall data. Set location alerts for extreme conditions. WeatherWise keeps you prepared every day.",
+    "size": 50,
+    "reviews": 1720,
+    "ratingAvg": 4.2,
+    "downloads": "560K",
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 290 },
+      { "name": "4 star", "count": 490 },
+      { "name": "5 star", "count": 680 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Gf3M4hk5/Crypto-Watch.jpg",
+    "title": "CryptoWatch",
+    "companyName": "FinEdge Labs",
+    "id": 15,
+    "description": "Track cryptocurrency prices and portfolio in real-time. Get instant alerts for market movements. Analyze charts and trends with smart tools. CryptoWatch keeps you ahead in trading.",
+    "size": 75,
+    "reviews": 2300,
+    "ratingAvg": 4.4,
+    "downloads": "920K",
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 310 },
+      { "name": "4 star", "count": 670 },
+      { "name": "5 star", "count": 1000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/zhhLvjFj/Home-Planner-3-D.png",
+    "title": "HomePlanner 3D",
+    "companyName": "DreamSpace Studio",
+    "id": 16,
+    "description": "Design your dream home in 3D with ease. Choose furniture, colors, and layouts instantly. Visualize your space before renovation starts. HomePlanner brings your imagination to life.",
+    "size": 150,
+    "reviews": 2670,
+    "ratingAvg": 4.5,
+    "downloads": "1.35M",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 190 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 760 },
+      { "name": "5 star", "count": 1300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/TGPGpsL/Chat-Verse-AI.png",
+    "title": "ChatVerse AI",
+    "companyName": "NeuroSoft AI",
+    "id": 17,
+    "description": "Chat with an intelligent AI that learns from you. Get instant answers, jokes, and daily advice. Multi-language support ensures smooth interaction. ChatVerse is your smart digital friend.",
+    "size": 105,
+    "reviews": 3920,
+    "ratingAvg": 4.8,
+    "downloads": "2.5M",
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 170 },
+      { "name": "3 star", "count": 290 },
+      { "name": "4 star", "count": 810 },
+      { "name": "5 star", "count": 2500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/gb0kd3j7/EcoTrack.webp",
+    "title": "EcoTrack",
+    "companyName": "GreenLife Systems",
+    "id": 18,
+    "description": "Track your carbon footprint with EcoTrack. Learn eco-friendly habits that save energy. Join challenges to support the planet. Every small step contributes to a greener future.",
+    "size": 60,
+    "reviews": 1500,
+    "ratingAvg": 4.3,
+    "downloads": "580K",
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 260 },
+      { "name": "4 star", "count": 490 },
+      { "name": "5 star", "count": 520 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qM6GS8Rb/Story-Craft.png",
+    "title": "StoryCraft",
+    "companyName": "DreamInk Media",
+    "id": 19,
+    "description": "Write stories, poems, and scripts in one place. Collaborate with writers across the world. Access creative prompts and contests daily. StoryCraft fuels your imagination with ease.",
+    "size": 65,
+    "reviews": 1840,
+    "ratingAvg": 4.6,
+    "downloads": "740K",
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 280 },
+      { "name": "4 star", "count": 590 },
+      { "name": "5 star", "count": 730 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5XB0fBJm/Time-Lapse-Studio.jpg",
+    "title": "TimeLapse Studio",
+    "companyName": "MotionPixel Labs",
+    "id": 20,
+    "description": "Capture and edit stunning time-lapse videos easily. Add transitions, filters, and background music. Export in HD with a single tap. TimeLapse Studio makes creativity effortless.",
+    "size": 130,
+    "reviews": 2200,
+    "ratingAvg": 4.7,
+    "downloads": "980K",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 290 },
+      { "name": "4 star", "count": 620 },
+      { "name": "5 star", "count": 1020 }
+    ]
+  }
+]
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+

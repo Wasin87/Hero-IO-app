@@ -1,0 +1,147 @@
+[
+  {
+    "image": "https://i.ibb.co.com/CpJBJLH7/photomaster.png",
+    "title": "PhotoMaster Pro",
+    "companyName": "PixelCraft Ltd",
+    "id": 1,
+    "description": "PhotoMaster Pro is your AI-powered editing companion. It enhances colors, removes blemishes, and adds cinematic effects. The interface is sleek and beginner-friendly. Turn ordinary photos into professional art in seconds.",
+    "size": 95,
+    "reviews": 2430,
+    "ratingAvg": 4.6,
+    "downloads": "1.2M",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 340 },
+      { "name": "4 star", "count": 860 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/DDhbrSLg/Task-Flow-Manager.png",
+    "title": "TaskFlow Manager",
+    "companyName": "NextGen Apps",
+    "id": 2,
+    "description": "TaskFlow Manager simplifies your daily planning. Create, track, and complete tasks with smart reminders. Visualize productivity trends using charts. Stay organized and stress-free every single day.",
+    "size": 60,
+    "reviews": 980,
+    "ratingAvg": 4.2,
+    "downloads": "540K",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/bMcS6PWD/Galaxy-Defender.webp",
+    "title": "Galaxy Defender",
+    "companyName": "Nova Games Studio",
+    "id": 3,
+    "description": "Defend the galaxy from alien invasions in this thrilling action game. Fly across stars, upgrade your ships, and battle epic bosses. Stunning graphics make every level exciting. Challenge your reflexes and conquer the cosmos.",
+    "size": 210,
+    "reviews": 5120,
+    "ratingAvg": 4.8,
+    "downloads": "2.3M",
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 330 },
+      { "name": "4 star", "count": 860 },
+      { "name": "5 star", "count": 3690 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/cXNBfRyK/Fit-Zone-Tracke.webp",
+    "title": "FitZone Tracker",
+    "companyName": "HealthSync Co.",
+    "id": 4,
+    "description": "Stay fit with real-time workout tracking and health tips. Monitor calories, steps, and heart rate easily. Personalized goals help you stay consistent. FitZone motivates you to build a healthier lifestyle.",
+    "size": 80,
+    "reviews": 1800,
+    "ratingAvg": 4.3,
+    "downloads": "870K",
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 310 },
+      { "name": "4 star", "count": 580 },
+      { "name": "5 star", "count": 670 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/b5kzVSzB/Mind-Ease-Meditation.webp",
+    "title": "MindEase Meditation",
+    "companyName": "CalmSpace Studios",
+    "id": 5,
+    "description": "MindEase helps you relax through guided meditation. Reduce stress and improve focus with daily sessions. Enjoy soothing soundscapes and mindfulness stories. Perfect for sleep, peace, and inner balance.",
+    "size": 45,
+    "reviews": 3200,
+    "ratingAvg": 4.7,
+    "downloads": "1.4M",
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 690 },
+      { "name": "5 star", "count": 1970 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/dwwqJK5D/Langify-Learn.webp",
+    "title": "Langify Learn",
+    "companyName": "EduVerse Labs",
+    "id": 6,
+    "description": "Master new languages faster with AI tutoring. Learn through interactive exercises and real dialogues. Track progress with detailed analytics. Langify makes learning fun and effective for everyone.",
+    "size": 110,
+    "reviews": 2750,
+    "ratingAvg": 4.5,
+    "downloads": "950K",
+    "ratings": [
+      { "name": "1 star", "count": 160 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1380 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qFj1tsLf/Budget-Buddy.webp",
+    "title": "BudgetBuddy",
+    "companyName": "FinWise Technologies",
+    "id": 7,
+    "description": "BudgetBuddy tracks your expenses and income with ease. Set monthly limits and get insights instantly. Visual charts show where your money goes. Save more and manage your finances smartly.",
+    "size": 55,
+    "reviews": 1450,
+    "ratingAvg": 4.1,
+    "downloads": "670K",
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 360 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 320 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5W160bW4/NoteNest.png",
+    "title": "NoteNest",
+    "companyName": "BrightApps Studio",
+    "id": 8,
+    "description": "NoteNest keeps your thoughts organized and synced. Capture notes, tasks, and reminders effortlessly. Use voice input or quick templates anytime. A simple, fast, and reliable note-taking app.",
+    "size": 38,
+    "reviews": 860,
+    "ratingAvg": 4.4,
+    "downloads": "410K",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 290 },
+      { "name": "5 star", "count": 280 }
+    ]
+  }
+
+]

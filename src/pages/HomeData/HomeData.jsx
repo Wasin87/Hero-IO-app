@@ -1,0 +1,60 @@
+import React from 'react';
+import download from '../../assets/icon-downloads.png'
+import rating from '../../assets/icon-ratings.png'
+import { useLoaderData } from 'react-router';
+const HomeData = () => {
+
+    const data = useLoaderData()
+    console.log(data);
+
+
+    return (
+         <div>
+      <div className='text-3xl font-bold flex justify-center items-center mt-5'>
+        <h1>Trending Apps</h1>
+      </div>
+
+      <div className='flex justify-center items-center text-gray-500 mt-3'>
+        <p>Explore All Trending Apps on the Market developed by us</p>
+      </div>
+
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center mt-10 mb-5'>
+        {data.map(({ id, image, title, downloads, ratingAvg }) => (
+          <div
+            key={id}
+            className='border border-gray-200 rounded-md shadow-md p-4 w-[240px] h-[310px]'
+          >
+            <img
+              className='w-[200px] h-[200px] flex justify-center items-center rounded-md'
+              src={image}
+              alt={title}
+            />
+            <p className='font-bold text-sm mt-3'>{title}</p>
+
+            <div className='flex justify-between mt-3'>
+              <div className='flex gap-2 px-2 py-1 bg-green-200 rounded-2xl'>
+                <img
+                  className='w-[16px] h-[16px]'
+                  src={download}
+                  alt='Downloads icon'
+                />
+                <p className='text-green-500 font-bold text-sm'>{downloads}</p>
+              </div>
+
+              <div className='flex gap-2 px-2 py-1 bg-orange-200 rounded-2xl'>
+                <img
+                  className='w-[16px] h-[16px]'
+                  src={rating}
+                  alt='Rating icon'
+                />
+                <p className='text-orange-500 font-bold text-sm'>{ratingAvg}</p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+    );
+};
+
+export default HomeData;
