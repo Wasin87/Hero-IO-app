@@ -42,7 +42,7 @@ const AppDetails = () => {
           </Link>
         </div>
       ) : (
-        <div className="max-w-5xl mx-auto mt-8 mb-8">
+        <div className="max-w-5xl mx-auto mt-8 mb-8 px-4">
           <div className="flex gap-10 py-6">
             <div>
               <img className="w-[200px] h-[200px] rounded-xl" src={singleApp.image} alt={singleApp.title} />

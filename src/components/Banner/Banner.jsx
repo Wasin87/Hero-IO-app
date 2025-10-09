@@ -6,7 +6,7 @@ import app from '../../assets/App.png'
 const Banner = () => {
   return (
     <div>
-       <div className='max-w-5xl mx-auto'>
+       <div className='max-w-5xl mx-auto px-5'>
            <div className=' mt-6'>
             <h1 className='text-3xl font-bold flex justify-center items-center'>We Build </h1>
             <h1 className='text-3xl font-bold flex justify-center items-center gap-2'> <span className='text-purple-600'>Productive </span> Apps</h1>
